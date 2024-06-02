@@ -1,4 +1,27 @@
-.mylogo{
+/* 
+Pallete:
+
+White:
+#ffffff
+
+Light Grey:
+#EEEEEE
+
+Dark Grey:
+#808080
+
+Dark Blue: 
+#344551
+
+Beige:
+#DAD3BE
+
+*/
+    
+
+
+/* images */
+.selfie_img{
     padding-top: 2%;
     border-radius: 50%;
     overflow: hidden;
@@ -6,25 +29,18 @@
     height: 20%;
 }
 
-.background_port{
+.cats_greeting_img{
     width: 100%;
     height: 10%;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* header style */
-header {
-    background-color: black;
-    padding: 10px;
-}
+/* images */
 
 
 /* Navigation bar */
+header {
+    background-color: #344551;
+    padding: 10px;
+}
 
 .navbar{
     margin-left: 100px;
@@ -48,17 +64,18 @@ nav ul {
 
 nav li {
     margin: 10px;
+    list-style: none;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     transition: 0.2s ease-in;
 }
 
 nav a:hover {
-    color: #0479BE;
+    color: #DAD3BE;
     font-size: 30px;
     border-bottom: 1px solid;
     padding-bottom: 3px;
@@ -66,11 +83,41 @@ nav a:hover {
 /* Navigation bar */
 
 
-.main_container{
+/* Web containers */
+.home_container{
     text-align: center;
+}
+
+.aboutme_container{
+    text-align: center;
+}
+.aboutme_container_intro{
+    background-color: #EEEEEE;
+    border-radius: 10%;
+    margin: 5%;
+}
+.aboutme_container_skills{
+    background-color: #EEEEEE;
+    border-radius: 10%;
+    margin: 5%;
+}
+
+.contact_container{
+    text-align: center;
+    background-color: #EEEEEE;
+    margin: 10%;
+}
+/* Web containers */
+
+
+/* Random */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
     text-align: center;
-    color: gray;
+    color: #808080;
 }
