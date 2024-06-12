@@ -97,6 +97,19 @@ Beige:
         padding: 10px;
         margin: 5%;
     }
+    .first_achievements_row{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .second_achievements_row{
+        padding-bottom: 40px;
+    }
+    .third_achievements_row{
+        padding-bottom: 40px;
+    }
+    .fourth_achievements_row{
+        padding-bottom: 40px;
+    }
 
     .contact_container{
         text-align: center;
@@ -113,6 +126,22 @@ Beige:
 
 
     /* images */
+    .clickable-img {
+        width: 20%;
+        height: 20%; 
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .clickable-img.enlarged {
+        transform: scale(1.8); /* Adjust the scale factor as needed */
+    }
+
+    #badge{
+        width: 10%;
+        height: 10%; 
+    }
+    
     .selfie_img{
         padding-top: 2%;
         border-radius: 50%;
@@ -226,6 +255,23 @@ Beige:
 
 
     /* images */
+
+    .clickable-img {
+        width: 60%;
+        height: 60%; 
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .clickable-img.enlarged {
+        transform: scale(1.6); 
+    }
+
+    #badge{
+        width: 50%;
+        height: 50%; 
+    }
+
     .selfie_img{
         padding-top: 2%;
         border-radius: 50%;
@@ -339,6 +385,22 @@ Beige:
 
 
     /* images */
+    .clickable-img {
+        width: 60%;
+        height: 60%; 
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .clickable-img.enlarged {
+        transform: scale(1.6); 
+    }
+
+    #badge{
+        width: 50%;
+        height: 50%; 
+    }
+    
     .selfie_img{
         padding-top: 2%;
         border-radius: 50%;
