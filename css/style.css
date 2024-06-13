@@ -155,6 +155,24 @@ Beige:
         height: 10%;
     }
     /* images */
+
+    button {
+        background-color: #808080; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    button:hover {
+        background-color: #DAD3BE;
+    }
   
 
 
@@ -169,7 +187,7 @@ Beige:
     /* Navigation bar */
     header {
         background-color: #344551;
-        padding: 5px;
+        padding: 15px;
     }
 
     nav {
@@ -186,6 +204,7 @@ Beige:
 
     nav ul {
         display: flex;
+        margin-right: 25px;
     }
 
     nav li {
@@ -268,8 +287,8 @@ Beige:
     }
 
     #badge{
-        width: 50%;
-        height: 50%; 
+        width: 30%;
+        height: 30%; 
     }
 
     .selfie_img{
@@ -285,6 +304,25 @@ Beige:
         height: 10%;
     }
     /* images */
+
+    button {
+        background-color: #808080; /* Green */
+        border: none;
+        color: white;
+        padding: 13px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    button:hover {
+        background-color: #DAD3BE;
+    }
+  
 
 }
 
@@ -397,10 +435,10 @@ Beige:
     }
 
     #badge{
-        width: 50%;
-        height: 50%; 
+        width: 25%;
+        height: 25%; 
     }
-    
+
     .selfie_img{
         padding-top: 2%;
         border-radius: 50%;
@@ -414,6 +452,24 @@ Beige:
         height: 10%;
     }
     /* images */
+
+    button {
+        background-color: #808080; /* Green */
+        border: none;
+        color: white;
+        padding: 13px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    
+    button:hover {
+        background-color: #DAD3BE;
+    }
 
 }
 
