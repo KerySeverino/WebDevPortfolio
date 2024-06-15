@@ -111,6 +111,36 @@ Beige:
         padding-bottom: 40px;
     }
 
+    .portfolio_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+    }
+    
+    .video_wrapper {
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
+        text-align: center;
+        background-color: #faf3ed;
+        padding-top: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .video_wrapper h3 {
+        margin-top: 0; 
+    }
+
+    .video_wrapper p {
+        font-size: 16px; 
+        transition: font-size 0.5s;
+    }
+
+    .video_wrapper p:hover{
+        font-size: 18px;
+    }
+
     .contact_container{
         text-align: center;
         background-color: #EEEEEE;
