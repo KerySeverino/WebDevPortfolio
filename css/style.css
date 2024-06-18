@@ -233,8 +233,8 @@ button:hover {
     }
 
     .cat_video_wrapper iframe {
-        width: 100%;
-        height: auto; 
+        width: 360px;
+        height: 315px; 
     }
 }
 
@@ -297,7 +297,7 @@ button:hover {
     }
 
     .cat_video_wrapper iframe {
-        width: 100%;
-        height: auto; 
+        width: 460px;
+        height: 315px; 
     }
 }
