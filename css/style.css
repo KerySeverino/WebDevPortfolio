@@ -231,6 +231,11 @@ button:hover {
         width: 40px;
         height: 40px;
     }
+
+    .cat_video_wrapper iframe {
+        width: 100%;
+        height: auto; 
+    }
 }
 
 /* Tablets & Small Laptops (Medium devices) */
@@ -289,5 +294,10 @@ button:hover {
     .video_wrapper .portfolio_author img {
         width: 50px;
         height: 50px;
+    }
+
+    .cat_video_wrapper iframe {
+        width: 100%;
+        height: auto; 
     }
 }
