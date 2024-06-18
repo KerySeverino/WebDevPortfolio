@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #DAD3BE;
+    color: #faf3ed;
     font-size: 25px;
     border-top: 2px solid;
     border-bottom: 2px solid;
@@ -75,10 +75,6 @@ body {
     padding: 40px 0;
 }
 
-.cats_container{
-    
-    text-align: center;
-}
 .portfolio_container {
     display: flex;
     justify-content: space-around;
@@ -94,12 +90,16 @@ body {
     padding: 5px 40px;
 }
 
+.cats_container{ 
+    text-align: center;
+}
+
 .cat_video_wrapper {
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
     text-align: center;
     background-color: #faf3ed;
-    padding: 5px 40px;
+    padding: 40px 40px;
 }
 
 .video_wrapper h3 {
@@ -172,7 +172,8 @@ button {
 }
 
 button:hover {
-    background-color: #DAD3BE;
+    background-color: #faf3ed;
+    color: #808080;
 }
 
 /* Responsive Webpage */
