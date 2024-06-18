@@ -3,7 +3,7 @@ White: #ffffff
 Light Grey: #EEEEEE
 Dark Grey: #808080
 Dark Blue: #344551
-Beige: #DAD3BE
+Beige: #faf3ed
 */
 
 /* Default: PC & Larger Laptops (Large devices) */
@@ -75,6 +75,10 @@ body {
     padding: 40px 0;
 }
 
+.cats_container{
+    
+    text-align: center;
+}
 .portfolio_container {
     display: flex;
     justify-content: space-around;
@@ -83,6 +87,14 @@ body {
 }
 
 .video_wrapper {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    background-color: #EEEEEE;
+    padding: 5px 40px;
+}
+
+.cat_video_wrapper {
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
     text-align: center;
