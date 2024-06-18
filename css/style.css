@@ -232,8 +232,8 @@ button:hover {
         height: 40px;
     }
 
-    .cat_video_wrapper iframe {
-        width: 360px;
+    .video_wrapper .cat_video_wrapper iframe {
+        width: 345px;
         height: 315px; 
     }
 }
@@ -296,7 +296,7 @@ button:hover {
         height: 50px;
     }
 
-    .cat_video_wrapper iframe {
+    .video_wrapper .cat_video_wrapper iframe {
         width: 460px;
         height: 315px; 
     }
