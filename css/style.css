@@ -180,6 +180,13 @@ Beige:
         height: 20%;
     }
 
+    .video_wrapper .portfolio_author img{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+    }
+
     .cats_greeting_img{
         width: 100%;
         height: 10%;
@@ -204,9 +211,6 @@ Beige:
         background-color: #DAD3BE;
     }
   
-
-
-
 
 /* Responsive Webpage */
 
@@ -373,7 +377,7 @@ Beige:
     }
 
     nav img {
-        width: 60px;
+        width: 0px;
         height: auto;
         border-radius: 100%;
     }
