@@ -1,0 +1,34 @@
+function ContactComponent(){
+    return(
+        <>
+            <div className="p-10 bg-gray-500 m-20 rounded-3xl text-center">
+                <h1 className="text-2xl font-bold"> Contact </h1>
+                <p> 
+                    Welcome to the contact page!
+                    Currently, the available methods to reach me are limited. 
+                    You can contact me using the following information: 
+                    
+                    <br/>
+
+                    <b>Email:</b> KerySeverino@gmail.com,
+                    <b> Instagram:</b> @KersevDiaz, 
+                    <b> LinkedIn:</b> Kery Severino Diaz
+                </p>
+            </div>
+
+            <hr className="my-10 border-gray-500 w-3/4 mx-auto" />
+
+            {/* Resume Section */}
+            <div className="text-center">
+                <h1 className="text-4xl"> My Resume </h1>
+                <div className="flex justify-center mt-15">
+                    <a href="src/assets/Kery Severino Diaz_Resume.pdf" download><button className="pdf-download-button"> Download PDF </button></a>
+                </div>
+            </div>
+            
+        </>
+      
+    )
+}
+
+export default ContactComponent;
