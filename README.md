@@ -1,6 +1,6 @@
 # 🚀 Kery Severino Diaz - Portfolio
 
-Welcome to my personal portfolio website! This is a space where I showcase my projects, skills, and experience in software development. Built with **React, Tailwind CSS**, and hosted using **GitHub Pages**.
+Welcome to my personal portfolio website! This is a space where I showcase my projects, skills, and experience in software development. Built with **Next.JS, Tailwind CSS**, and hosted using **GitHub Pages**.
 
 ---
 
@@ -14,7 +14,7 @@ Welcome to my personal portfolio website! This is a space where I showcase my pr
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Tailwind CSS
+- **Frontend:** Next.JS, Tailwind CSS
 - **Deployment:** GitHub Pages
 - **Version Control:** Git & GitHub
 
