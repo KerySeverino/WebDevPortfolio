@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  @apply bg-gradient-to-r from-gray-500 to-gray-800 text-white font-sans;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar-page-link{
+  @apply transition-transform duration-300 hover:scale-110 hover:underline text-2xl
+}
+
+.text-shadow{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.myself{
+  @apply hover:scale-102 ease-in-out duration-1000
+}
+
+.skills-outside-hover-effect {
+  @apply transition duration-500 hover:bg-gray-700 hover:text-gray-300;
+}
+
+.skills-inside-hover-effect {
+  @apply transition duration-500 hover:shadow-inner hover:shadow-blue-300/30 hover:scale-105 flex flex-col items-center;
+}
+.pdf-download-button{
+  @apply  bg-gray-700 hover:bg-gray-800 transition duration-400 hover:scale-103 border border-black font-bold rounded p-5
+}
+
+.img-hover-scale-effect{
+  @apply hover:shadow-2xl hover:scale-104 transition-all duration-300
+}
+
+.portfolio-card-effect{
+  @apply bg-gray-500 rounded-3xl p-4 text-center hover:scale-104 transition-all duration-300
+}
