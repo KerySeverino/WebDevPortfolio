@@ -7,7 +7,7 @@ export default function CatsComponent() {
   return (
     <>
       {/* Weekly Pawsitivity Quote */}
-      <div className="bg-gray-500 rounded-3xl m-32 p-5 mt-5 mb-10 text-center">
+      <div className="bg-gray-500 rounded-3xl m-5 p-5 mt-5 mb-10 text-center">
         <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
         <p>
           "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle." - Christian D. Larson
@@ -15,9 +15,9 @@ export default function CatsComponent() {
       </div>
 
       {/* My Cat Corner */}
-      <div className="bg-gray-500 rounded-3xl m-10 p-4 mt-10 mb-30 text-center">
+      <div className="bg-gray-500 rounded-3xl m-5 p-4 mt-10 mb-30 text-center">
         <h1 className="text-3xl">My Cat Corner</h1>
-        <p className="m-10">
+        <p className="m-5">
           Cats are simply the best, and what better way to share my love for them than by giving them their own special place on my site? 
           Meet Miles and MJ, my two adorable, mischievous, and absolutely perfect feline companions! 
           They fill my days with endless cuddles, playful antics, and the occasional chaos because what's life without a little cat drama?
@@ -34,7 +34,7 @@ export default function CatsComponent() {
       </div>
 
       {/* Awesome Cat Videos */}
-      <div className="bg-gray-500 rounded-3xl m-10 p-4 mb-30 text-center">
+      <div className="bg-gray-500 rounded-3xl m-5 p-4 mb-30 text-center">
         <h1 className="text-3xl">Awesome Cat Videos</h1>
         <p>A collection of videos that I want to share, which I found funny or cute. I hope you enjoy them!</p>
 
@@ -51,9 +51,9 @@ export default function CatsComponent() {
       <hr className="my-10 border-gray-500 w-3/4 mx-auto" />
 
       {/* Why This Page Exists */}
-      <div className="bg-gray-500 rounded-3xl m-32 p-5 mt-20 mb-10 text-center img-hover-scale-effect">
+      <div className="bg-gray-500 rounded-3xl m-5 p-5 mt-20 mb-10 text-center img-hover-scale-effect">
           <h1 className="text-2xl">Why This Page Exists?</h1>
-          <p className="m-10">
+          <p className="mt-5">
             Every portfolio reflects not just the creator’s work, but also what drives and inspires them. 
             For me, problem solving, creativity, and continuous learning fuel my passion for development. 
             While coding is a huge part of my life, so are the things that bring me joy - cats, sleep, and great food!

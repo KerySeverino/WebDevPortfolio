@@ -7,19 +7,18 @@ export default function HomeAboutMeSection() {
     <>
         {/* Intro Section */}
         <div className="min-h-screen pb-20">
-            <div className="flex justify-center pb-20 pt-20">
-                <div className="text-6xl">
-                    <h1>A LITTLE <br /> ABOUT ME</h1>
-                </div>
-                <div className="m-4">
-                    <Image className="w-64 h-64" src="/coding-cartoon.png" alt="Coding Cartoon" width={256} height={256} />
+            <div className="text-center pb-20 pt-20">
+                
+                    <h1 className="adaptable-title-size">A LITTLE ABOUT ME</h1>
+                <div className="flex justify-center">
+                    <Image className="adaptable-img-size rounded-4xl" src="/self-2.png" alt="self-2" width={320} height={200} />
                 </div>
             </div>
 
             {/* About Me Section */}
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 m-4 overflow-x-auto p-2">
                 {/* Left Column - Text */}
-                <div className="text-2xl p-4">
+                <div className="p-4 adaptable-text-size">
                     <p className="animate-bounce">Hello everyone!</p>
                     <br />
                     <p>
@@ -47,16 +46,16 @@ export default function HomeAboutMeSection() {
         </div>
 
         {/* Skills Section */}
-        <div className="min-h-screen pb-20 pt-20">
-            <div className="flex justify-center">
+        <div className="min-h-screen pb-20 pt-20 text-center">
+            <div className="flex justify-center adaptable-title-size">
                 <h1 className="text-4xl">My Skills</h1>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 m-4 p-2">
+            <div className="adaptable-text-size grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 m-4 p-2 ">
             {/* Frontend Skills */}
-                <div className="skills-outside-hover-effect p-5">
-                    <h1 className="text-2xl underline mb-4 text-center">Frontend</h1>
-                    <div className="grid grid-cols-2 gap-4 p-4 text-center">
+                <div className="skills-outside-hover-effect p-5 ">
+                    <h1 className="underline mb-4 text-4xl">Frontend</h1>
+                    <div className="adaptable-skills-grid">
                     {["html5", "css3", "javascript", "react", "bootstrap", "tailwindcss", "next.js"].map((tech) => (
                         <div key={tech} className="skills-inside-hover-effect">
                             <img src={`https://cdn.simpleicons.org/${tech}`} alt={tech} width={50} height={50} />
@@ -67,9 +66,9 @@ export default function HomeAboutMeSection() {
                 </div>
 
                 {/* Backend Skills */}
-                <div className="skills-outside-hover-effect p-5">
-                    <h1 className="text-2xl underline mb-4 text-center">Backend</h1>
-                    <div className="grid grid-cols-2 gap-4 p-4 text-center">
+                <div className="skills-outside-hover-effect p-5 ">
+                    <h1 className="underline mb-4 text-4xl">Backend</h1>
+                    <div className="adaptable-skills-grid">
                     {["postgresql", "mysql", "node.js", "amazonwebservices"].map((tech) => (
                         <div key={tech} className="skills-inside-hover-effect">
                             <img src={`https://cdn.simpleicons.org/${tech}`} alt={tech} width={50} height={50} />
@@ -80,9 +79,9 @@ export default function HomeAboutMeSection() {
                 </div>
 
                 {/* Technologies Skills */}
-                <div className="skills-outside-hover-effect p-5">
-                    <h1 className="text-2xl underline mb-4 text-center">Technologies</h1>
-                    <div className="grid grid-cols-2 gap-4 p-4 text-center">
+                <div className="skills-outside-hover-effect p-5 ">
+                    <h1 className="underline mb-4 text-4xl">Technologies</h1>
+                    <div className="adaptable-skills-grid">
                     {["github", "git"].map((tech) => (
                         <div key={tech} className="skills-inside-hover-effect">
                             <img src={`https://cdn.simpleicons.org/${tech}`} alt={tech} width={50} height={50} />
@@ -93,9 +92,9 @@ export default function HomeAboutMeSection() {
                 </div>
 
                 {/* Languages Skills */}
-                <div className="skills-outside-hover-effect p-5">
-                    <h1 className="text-2xl underline mb-4 text-center">Languages</h1>
-                    <div className="grid grid-cols-2 gap-4 p-4 text-center">
+                <div className="skills-outside-hover-effect p-5 ">
+                    <h1 className="underline mb-4 text-4xl">Languages</h1>
+                    <div className="adaptable-skills-grid">
                         {["python", "c", "c++", "javascript"].map((tech) => (
                         <div key={tech} className="skills-inside-hover-effect">
                             <img src={`https://cdn.simpleicons.org/${tech}`} alt={tech} width={50} height={50} />
@@ -112,9 +111,9 @@ export default function HomeAboutMeSection() {
                 </div>
 
                     {/* Soft Skills */}
-                <div className="skills-outside-hover-effect p-5">
-                    <h1 className="text-2xl underline mb-4 text-center">Soft Skills</h1>
-                    <div className="grid grid-cols-2 gap-4 p-4 text-center">
+                <div className="skills-outside-hover-effect p-5 ">
+                    <h1 className="underline mb-4 text-4xl">Soft Skills</h1>
+                    <div className="adaptable-skills-grid">
                         {["troubleshooter", "fast-learner", "fast-typist", "hardworking", "communication", "teamwork", "leadership"].map((tech) => (
                         <div key={tech} className="skills-inside-hover-effect">
                             <p alt={tech} /> 

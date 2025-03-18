@@ -1,7 +1,7 @@
 export default function ContactComponent() {
     return (
       <>
-        <div className="p-10 bg-gray-500 m-20 rounded-3xl text-center">
+        <div className="p-5  bg-gray-500 m-5 rounded-3xl text-center">
             <h1 className="text-2xl font-bold">Contact</h1>
             <p>
                 Welcome to the contact page! <br />
