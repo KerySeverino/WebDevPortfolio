@@ -1,13 +1,11 @@
-import HomeHeader from "./components/HomeHeader";
+import HeroComponent from "./components/HeroComponent";
 import Navbar from "./components/Navbar";
-import HomeAboutMeSection from "./components/HomeAboutMeSection";
 
 export default function Home() {
   return (
     <main>
         <Navbar />
-        <HomeHeader/>
-        <HomeAboutMeSection />
+        <HeroComponent/>
     </main>
   );
 }

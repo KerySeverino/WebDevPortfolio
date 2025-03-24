@@ -20,7 +20,7 @@
 } */
 
 body {
-  @apply bg-gradient-to-r from-gray-500 to-gray-800 text-white font-sans;
+  @apply bg-gradient-to-r from-black to-gray-900 text-white font-sans;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
@@ -29,15 +29,39 @@ body {
 }
 
 .Navbar-page-link{
-  @apply transition-transform duration-300 hover:scale-110 hover:underline text-2xl;
+  @apply transition-transform duration-300 hover:text-indigo-600 hover:scale-110 text-2xl;
 }
+
+.social-page-link{
+  @apply transition-transform duration-300 hover:text-indigo-600 hover:scale-110;
+}
+
+
+/* Typewriter effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  width: 0;
+  animation:
+    typing 2s steps(50, end) forwards,
+    blink 0.8s step-end infinite;
+}
+/* Typewriter effect */
+
 
 .text-shadow{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-}
-
-.myself{
-  @apply hover:scale-102 ease-in-out duration-1000;
 }
 
 .skills-outside-hover-effect {
@@ -56,10 +80,11 @@ body {
 }
 
 .portfolio-card-effect{
-  @apply bg-gray-500 rounded-3xl p-4 text-center hover:scale-104 transition-all duration-300;
+  @apply bg-gray-500/50 rounded-3xl p-4 text-center hover:scale-104 transition-all duration-300;
 }
 
-/* Adaptable styles */
+
+/* Responsive website styles */
 .adaptable-text-size{
   @apply text-2xl;
 }
@@ -69,3 +94,12 @@ body {
 .adaptable-skills-grid{
   @apply grid grid-cols-1 sm:grid-cols-2  gap-4 p-4;
 }
+
+.adaptable-margin-size{
+  @apply ml-10 mr-10
+}
+
+.cats-margin-size{
+  @apply sm:ml-40 sm:mr-40
+}
+
