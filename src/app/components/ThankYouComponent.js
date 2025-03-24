@@ -36,17 +36,21 @@ export default function ThankYouComponent() {
 
       {/* Message */}
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-white text-center px-4">
-        <p className="text-3xl font-bold">Thanks for reaching out!</p>
-        <p>
-            <span className="typewriter"> 
-                I’ll get back to you faster than console.log() — likely with a cat in my lap and coffee in hand.
-            </span>
+        <p className="text-3xl font-bold">
+          <span className="typewriter">
+            Thanks for reaching out!
+          </span>
         </p>
         
+        <p className="mt-5">
+            I’ll get back to you faster than console.log()
+            likely with a cat in my lap and coffee in hand.
+        </p>
+         
         <p className="text-lg text-gray-300 mt-10">
           Redirecting to the homepage in...
         </p>
-        <p className="text-5xl font-mono text-indigo-400">{countdown}</p>
+        <p className="text-5xl font-mono text-indigo-500">{countdown}</p>
       </div>
     </div>
   );

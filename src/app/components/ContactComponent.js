@@ -6,14 +6,14 @@ export default function ContactComponent() {
 
                 {/* Contact Form */}
                 <div className="relative z-20 flex flex-col items-center justify-center h-full text-white">
-                    <h2 className="text-3xl">
+                    <h2 className="text-3xl pt-7">
                         Get In Touch
                     </h2>
-                    <p className="text-gray-200 text-center mt-5">   
+                    <p className="adaptable-margin-size text-gray-200 text-center mt-5">   
                         Have a project, collaboration, tips, or just want to say hi? Drop me a message!
                     </p>
                     
-                    <div className="adaptable-margin-size">
+                    <div className="adaptable-margin-size mt-5">
                         <form action="https://formsubmit.co/keryseverino@gmail.com" method="POST" className="space-y-6 max-w-xl mx-auto mt-5">
                             
                             {/* Thank you page redirect */}

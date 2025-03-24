@@ -43,12 +43,12 @@ export default function HeroComponent() {
         
 
         {/* Call-to-action */}
-        <a href="/portfolio" className="mt-6 px-6 py-3 transition duration-150 bg-indigo-500 hover:bg-indigo-600 hover:scale-105 rounded-full">
+        <a href="/portfolio" className="button-style">
           View My Work
         </a>
 
         {/* Social Links */}
-        <div className="absolute bottom-4 text-center">
+        <div className="absolute bottom-5 text-center">
           <h2 className="italic animate-bounce"> Connect with me! </h2>
             <ul className="flex gap-5">         
               <li><a href="https://github.com/KerySeverino"><AiOutlineGithub size={40} className="social-page-link"/></a></li>

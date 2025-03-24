@@ -24,15 +24,15 @@ export default function AboutMeComponent() {
             {/* About Me Section */}
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 m-4 overflow-x-auto p-2">
                 {/* Left Column - Text */}
-                <div className="p-4 adaptable-text-size">
+                <div className="p-4 text-2xl">
                     <p className="animate-bounce">Hello everyone!</p>
                     <br />
                     <p>
-                    I’m Kery Severino Diaz, originally from the Dominican Republic, and now proud to call New York City my home. 
-                    While New York wasn’t exactly what I had envisioned, it’s a place where dreams can come true for those who are willing to put in the hard work and determination – and that’s exactly what I’m planning to do.
-                    <br /><br />
-                    My passion for coding began when I was young. Growing up in the Dominican Republic, I often used my mom’s computer for gaming, sparking my love for technology. Whether it was fixing tech issues or assembling furniture, I enjoyed helping others.
-                    Now, in college, I’m pursuing my dream of making a positive impact through technology and cats!
+                        I’m Kery Severino Diaz, originally from the Dominican Republic, and now proud to call New York City my home. 
+                        While New York wasn’t exactly what I had envisioned, it’s a place where dreams can come true for those who are willing to put in the hard work and determination – and that’s exactly what I’m planning to do.
+                        <br /><br />
+                        My passion for coding began when I was young. Growing up in the Dominican Republic, I often used my mom’s computer for gaming, sparking my love for technology. Whether it was fixing tech issues or assembling furniture, I enjoyed helping others.
+                        Now, in college, I’m pursuing my dream of making a positive impact through technology and cats!
                     </p>
                 </div>
 
@@ -57,9 +57,9 @@ export default function AboutMeComponent() {
                 <h1 className="text-4xl">My Skills</h1>
             </div>
             
-            <div className="adaptable-text-size grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 m-4 p-2 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 m-4 p-2 ">
             {/* Frontend Skills */}
-                <div className="skills-outside-hover-effect p-5 ">
+                <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Frontend</h1>
                     <div className="adaptable-skills-grid">
                     {["html5", "css3", "javascript", "react", "bootstrap", "tailwindcss", "next.js"].map((tech) => (
@@ -72,7 +72,7 @@ export default function AboutMeComponent() {
                 </div>
 
                 {/* Backend Skills */}
-                <div className="skills-outside-hover-effect p-5 ">
+                <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Backend</h1>
                     <div className="adaptable-skills-grid">
                     {["postgresql", "mysql", "node.js", "amazonwebservices"].map((tech) => (
@@ -85,7 +85,7 @@ export default function AboutMeComponent() {
                 </div>
 
                 {/* Technologies Skills */}
-                <div className="skills-outside-hover-effect p-5 ">
+                <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Technologies</h1>
                     <div className="adaptable-skills-grid">
                     {["github", "git"].map((tech) => (
@@ -98,7 +98,7 @@ export default function AboutMeComponent() {
                 </div>
 
                 {/* Languages Skills */}
-                <div className="skills-outside-hover-effect p-5 ">
+                <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Languages</h1>
                     <div className="adaptable-skills-grid">
                         {["python", "c", "c++", "javascript"].map((tech) => (
@@ -116,8 +116,8 @@ export default function AboutMeComponent() {
                     </div>
                 </div>
 
-                    {/* Soft Skills */}
-                <div className="skills-outside-hover-effect p-5 ">
+                {/* Soft Skills */}
+                <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Soft Skills</h1>
                     <div className="adaptable-skills-grid">
                         {["troubleshooter", "fast-learner", "fast-typist", "hardworking", "communication", "teamwork", "leadership"].map((tech) => (
@@ -129,6 +129,15 @@ export default function AboutMeComponent() {
                     </div>
                 </div>
             </div>
+                {/* Resume Section */}
+                <div className="text-center">
+                    <h1 className="text-4xl">My Resume</h1>
+                    <div className="flex justify-center mt-5 mb-5">
+                        <a href="/Kery Severino Diaz_Resume.pdf" download>
+                            <button className="button-style">Download PDF</button>
+                        </a>
+                    </div>
+                </div>
         </div>
     </>
   );

@@ -18,8 +18,8 @@ export default function PortfolioComponent() {
               for improved performance, maintainability, and modern styling. The transition wasn't difficult since I enjoy new technologies 
               and continuosly optimized my projects for future scalability.
 
-              The code for this website is publicly available on GitHub, and it is hosted as a GitHub Page with a custom domain. 
-              I followed GitHub's deployment instructions to configure everything.
+              The code for this website is publicly available on GitHub, and it is hosted on Vercel with a custom domain. 
+              I followed Vercel's deployment instructions to configure everything.
 
               This project is a work in progress, and I continuously enhance it to incorporate better functionality, performance, and user experience.
             </p>

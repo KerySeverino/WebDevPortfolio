@@ -29,11 +29,11 @@ body {
 }
 
 .Navbar-page-link{
-  @apply transition-transform duration-300 hover:text-indigo-600 hover:scale-110 text-2xl;
+  @apply transition-transform duration-300 hover:text-indigo-400 hover:scale-110 text-2xl;
 }
 
 .social-page-link{
-  @apply transition-transform duration-300 hover:text-indigo-600 hover:scale-110;
+  @apply transition-transform duration-300 hover:text-indigo-400 hover:scale-110;
 }
 
 
@@ -50,11 +50,13 @@ body {
 .typewriter {
   display: inline-block;
   overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
   white-space: nowrap;
   border-right: 2px solid white;
   width: 0;
   animation:
-    typing 2s steps(50, end) forwards,
+    typing 2s steps(22, end) forwards,
     blink 0.8s step-end infinite;
 }
 /* Typewriter effect */
@@ -65,14 +67,14 @@ body {
 }
 
 .skills-outside-hover-effect {
-  @apply transition duration-500 hover:bg-gray-700 hover:text-gray-300;
+  @apply transition duration-500 hover:bg-indigo-400/50 hover:text-gray-300;
 }
 
 .skills-inside-hover-effect {
-  @apply transition duration-500 hover:shadow-inner hover:shadow-blue-300/30 hover:scale-105 flex flex-col items-center;
+  @apply transition duration-500 hover:shadow-inner hover:shadow-white hover:scale-105 flex flex-col items-center;
 }
-.pdf-download-button{
-  @apply  bg-gray-700 hover:bg-gray-800 transition duration-400 hover:scale-103 border border-black font-bold rounded p-5;
+.button-style{
+  @apply  mt-6 px-6 py-3 transition duration-150 bg-indigo-500 hover:bg-indigo-600 hover:scale-105 rounded-full;
 }
 
 .img-hover-scale-effect{
@@ -80,16 +82,13 @@ body {
 }
 
 .portfolio-card-effect{
-  @apply bg-gray-500/50 rounded-3xl p-4 text-center hover:scale-104 transition-all duration-300;
+  @apply bg-gray-500/50 rounded-3xl p-4 text-center hover:bg-indigo-400/50 hover:scale-104 transition-all duration-300;
 }
 
 
 /* Responsive website styles */
-.adaptable-text-size{
-  @apply text-2xl;
-}
 .adaptable-title-size{
-  @apply text-4xl sm:text-5xl lg:text-6xl;
+  @apply text-3xl sm:text-4xl lg:text-5xl;
 }
 .adaptable-skills-grid{
   @apply grid grid-cols-1 sm:grid-cols-2  gap-4 p-4;
@@ -102,4 +101,3 @@ body {
 .cats-margin-size{
   @apply sm:ml-40 sm:mr-40
 }
-
