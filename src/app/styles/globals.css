@@ -50,8 +50,6 @@ body {
 .typewriter {
   display: inline-block;
   overflow: hidden;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
   white-space: nowrap;
   border-right: 2px solid white;
   width: 0;
