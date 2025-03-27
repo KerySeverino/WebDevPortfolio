@@ -96,6 +96,11 @@ body {
   @apply ml-10 mr-10
 }
 
+
+.adaptable-grid-cols-size{
+  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 place-items-center
+}
+
 .cats-margin-size{
   @apply sm:ml-40 sm:mr-40
 }

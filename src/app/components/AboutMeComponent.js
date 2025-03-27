@@ -58,7 +58,7 @@ export default function AboutMeComponent() {
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 m-4 p-2 ">
-            {/* Frontend Skills */}
+                {/* Frontend Skills */}
                 <div className="skills-outside-hover-effect p-5 bg-gray-500/50 rounded-2xl">
                     <h1 className="underline mb-4 text-4xl">Frontend</h1>
                     <div className="adaptable-skills-grid">
@@ -129,15 +129,41 @@ export default function AboutMeComponent() {
                     </div>
                 </div>
             </div>
-                {/* Resume Section */}
-                <div className="text-center">
-                    <h1 className="text-4xl">My Resume</h1>
-                    <div className="flex justify-center mt-5 mb-5">
-                        <a href="/Kery Severino Diaz_Resume.pdf" download>
-                            <button className="button-style">Download PDF</button>
-                        </a>
-                    </div>
+
+             {/* Achievements Section */}
+            <div className="m-4 min-h-screen">
+                <h1 className="text-4xl mb-4 text-center">My Achievements</h1>
+                <div className="adaptable-grid-cols-size">
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Fall 2020.png" alt="Fall 2020" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Spring 2021.png" alt="Spring 2021" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Fall 2023.png" alt="Fall 2023" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Spring 2023.png" alt="Spring 2023" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Fall 2024.png" alt="Fall 2024" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Spring 2024.png" alt="Spring 2024" width={400} height={400} /></div>
                 </div>
+            </div>
+
+           {/* Certificates Section */}
+            <div className="m-4 min-h-screen">
+                <h1 className="text-4xl mb-4 text-center">Certificates</h1>
+                <div className="adaptable-grid-cols-size">
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 1:8.png" alt="Google 1" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 2:8.png" alt="Google 2" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 1:5.png" alt="Programming 1" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 2:5.png" alt="Programming 2" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Postman - Postman API Fundamentals Student Expert.png" alt="Postman" width={200} height={200} /></div>
+                </div>
+            </div>
+
+            {/* Resume Section */}
+            <div className="mt-20">
+                <h1 className="text-4xl">My Resume</h1>
+                <div className="flex justify-center mt-2 mb-5">
+                    <a href="/Kery Severino Diaz_Resume.pdf" download>
+                        <button className="button-style">Download PDF</button>
+                    </a>
+                </div>
+            </div>
         </div>
     </>
   );
