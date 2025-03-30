@@ -35,7 +35,7 @@ export default function HeroComponent() {
         </h2>
 
         {/* Bio */}
-        <div className="adaptable-margin-size">
+        <div className="ml-10 mr-10">
           <div className="mt-10 max-w-xl text-lg text-gray-300 text-center">
             <p>I’ve found my limit a thousand times and still, I press further.</p>
           </div>
