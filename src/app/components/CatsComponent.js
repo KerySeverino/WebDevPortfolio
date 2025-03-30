@@ -15,15 +15,15 @@ export default function CatsComponent() {
             <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-5 mb-10 text-center z-20">
               <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
               <p>
-              "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, I will try again tomorrow."
-              — Mary Anne Radmacher
+              "You don’t have to see the whole staircase, just take the first step."
+              — Martin Luther King Jr.
               </p>
             </div>
           </div>
           
           <div className="cats-margin-size">
             {/* My Cat Corner */}
-            <div className="bg-gray-500/50  rounded-3xl m-5 p-4 mt-10 mb-30 text-center">
+            <div className="bg-gray-500/50 rounded-3xl m-5 p-4 mt-10 mb-30 text-center">
               <h1 className="text-3xl">My Cat Corner</h1>
               <p className="m-5">
                 Cats are simply the best, and what better way to share my love for them than by giving them their own special place on my site? 
@@ -35,7 +35,7 @@ export default function CatsComponent() {
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 m-4 overflow-x-auto p-2">
                 {["miles-1.png", "miles-2.png", "mj-1.png", "mj-2.png"].map((cat, index) => (
                   <div key={index} className="flex flex-col justify-center items-center">
-                    <Image src={`/${cat}`} width={200} height={200} alt={cat} className="rounded-lg" />
+                    <Image src={`/${cat}`} width={200} height={200} alt={cat} className="img-hover-scale-effect rounded-lg" />
                   </div>
                 ))}
               </div>

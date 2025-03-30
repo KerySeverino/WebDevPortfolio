@@ -11,10 +11,10 @@ export default function AboutMeComponent() {
                     <h1 className="adaptable-title-size">A LITTLE ABOUT ME</h1>
                 <div className="grid grid-cols-1 xl:grid-cols-2 m-4 overflow-x-auto">
                     <div className="flex justify-center m-10">
-                        <Image className="adaptable-img-size rounded-4xl" src="/self.jpg" alt="self-2" width={420} height={200} />
+                        <Image className="rounded-4xl" src="/self.jpg" alt="self-2" width={440} height={200} />
                     </div>
                     <div className="flex justify-center m-10">
-                        <Image className="adaptable-img-size rounded-4xl" src="/self-2.png" alt="self-2" width={400} height={200} />
+                        <Image className="rounded-4xl" src="/self-2.png" alt="self-2" width={400} height={200} />
                     </div>
 
                 </div>
