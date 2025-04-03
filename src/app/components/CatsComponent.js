@@ -63,7 +63,7 @@ export default function CatsComponent() {
           <hr className="my-10 border-gray-500 w-3/4 mx-auto" />
 
           {/* Why This Page Exists */}
-          <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-20 mb-10 text-center img-hover-scale-effect">
+          <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-20 mb-10 text-center">
               <h1 className="text-2xl">Why This Page Exists?</h1>
               <p className="mt-5">
                 Every portfolio reflects not just the creator’s work, but also what drives and inspires them. 
