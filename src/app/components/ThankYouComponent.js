@@ -28,7 +28,7 @@ export default function ThankYouComponent() {
     <div className="relative h-screen w-full overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <Image src="/rainforest.jpg" alt="Background" fill className="object-cover" priority/>
+        <Image src="/desktop.jpg" alt="Background" fill className="object-cover" priority/>
       </div>
 
       {/* Overlay */}
