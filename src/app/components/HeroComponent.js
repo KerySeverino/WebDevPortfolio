@@ -26,12 +26,12 @@ export default function HeroComponent() {
       <div className="absolute inset-0 bg-black/30 z-10" />
   
       {/* Title */}
-      <div className="relative z-20 flex flex-col items-center justify-center h-full text-white">
+      <div className="relative z-20 flex flex-col items-center justify-center h-full">
         <h1 className={`text-4xl lg:text-6xl font-bold relative z-10 transition-all duration-800 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}`}> 
           Kery Severino Diaz
         </h1>
         <h2 className="text-3xl mt-4">
-          <span className="typewriter"> Full Stack Developer </span>
+          <span className="typewriter"> Aspiring AI / ML Engineer </span>
         </h2>
 
         {/* Bio */}
