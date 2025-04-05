@@ -15,8 +15,7 @@ export default function CatsComponent() {
             <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-5 mb-10 text-center z-20">
               <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
               <p>
-              "You don’t have to see the whole staircase, just take the first step."
-              — Martin Luther King Jr.
+                "Success is the sum of small efforts, repeated day in and day out." – Robert Collier
               </p>
             </div>
           </div>
