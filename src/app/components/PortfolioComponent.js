@@ -30,6 +30,28 @@ export default function PortfolioComponent() {
             <p className="mt-4"> Kery | Mar 11, 2025 </p>
           </div>
 
+          {/* AI/ML Roadmap Card */}
+          <div className="portfolio-card-effect">
+            <h1 className="font-bold">AI/ML Roadmap</h1>
+            <p className="mt-4">
+            Each project, notebook, and line of code here is part of a structured path I'm building to master data, math, and machine intelligence.
+            Ultimately becoming one with the machine. Maybe even like Tony Stark (Iron Man) one day, as silly as that sounds hahah.
+
+            I'm genuinely passionate about uncovering how machines learn, think, and evolve. 
+            This roadmap is how I'm turning that curiosity into real world skills by building and experimenting.
+
+            I’ve worked with AI/ML in one of my classes before, but this is different. This is my journey. My grind. My progress.
+
+            I'm starting from the foundation, rebuilding the knowledge, and sharing everything on GitHub to document my real-time growth.
+            From NumPy and Pandas to my first trained models Machine Learning, this roadmap is the proof of that commitment.
+            </p>
+
+            <div className="flex justify-center mt-4">
+              <Image src="/self.jpg" alt="Profile" className="rounded-full" width={70} height={70} />
+            </div>
+            <p className="mt-4"> Kery | April 8, 2025 </p>
+          </div>
+
           {/* Spellbound Game */}
           <div className="portfolio-card-effect">
             <h1 className="font-bold mb-4">Spellbound</h1>
