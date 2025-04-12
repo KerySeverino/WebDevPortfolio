@@ -43,7 +43,7 @@ export default function PortfolioComponent() {
             I’ve worked with AI/ML in one of my classes before, but this is different. This is my journey. My grind. My progress.
 
             I'm starting from the foundation, rebuilding the knowledge, and sharing everything on GitHub to document my real-time growth.
-            From NumPy and Pandas to my first trained models Machine Learning, this roadmap is the proof of that commitment.
+            From NumPy and Pandas, to my first Machine Learning trained models, this roadmap is the proof of that commitment.
             </p>
 
             <div className="flex justify-center mt-4">
