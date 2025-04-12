@@ -1,14 +1,27 @@
 "use client";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function AboutMeComponent() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+        setIsVisible(true);
+        }, 150); 
+    }, []);
+
   return (
     <>
         {/* Intro Section */}
         <div className="min-h-screen pb-20">
             <div className="text-center pb-20 pt-20">
-                
-                    <h1 className="adaptable-title-size">A LITTLE ABOUT ME</h1>
+    
+                <h1 className={`adaptable-title-size relative z-10 transition-all duration-800 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}`}> 
+                    A LITTLE ABOUT ME
+                </h1>
+       
                 <div className="grid grid-cols-1 xl:grid-cols-2 m-4 overflow-x-auto">
                     <div className="flex justify-center m-10">
                         <Image className="rounded-4xl" src="/self.jpg" alt="self-2" width={440} height={200} />
@@ -147,11 +160,19 @@ export default function AboutMeComponent() {
             <div className="m-4 min-h-screen">
                 <h1 className="text-4xl mb-4 text-center">Certificates</h1>
                 <div className="adaptable-grid-cols-size">
+                    <div className="transition duration-300 hover:scale-110"><Image src="/MachineLearning_1:3.png" alt="Machinelearning 1" width={400} height={200} /></div>
                     <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 1:8.png" alt="Google 1" width={400} height={400} /></div>
                     <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 2:8.png" alt="Google 2" width={400} height={400} /></div>
                     <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 1:5.png" alt="Programming 1" width={400} height={400} /></div>
                     <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 2:5.png" alt="Programming 2" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Postman - Postman API Fundamentals Student Expert.png" alt="Postman" width={200} height={200} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/hackerrank_python.png" alt="Hackerrank python 1" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/hackerrank_sql.png" alt="Hackerrank sql 1" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_c.png" alt="Sololearn c" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_java.png" alt="Sololearn java" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_python.png" alt="Sololearn python" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_html.png" alt="Sololearn html" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_tech.png" alt="Sololearn tech" width={400} height={400} /></div>
+                    <div className="transition duration-300 hover:scale-110"><Image src="/Postman - Postman API Fundamentals Student Expert.png" alt="Postman" width={200} height={200} /></div>                   
                 </div>
             </div>
 

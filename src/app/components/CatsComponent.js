@@ -15,7 +15,7 @@ export default function CatsComponent() {
             <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-5 mb-10 text-center z-20">
               <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
               <p>
-                "Success is the sum of small efforts, repeated day in and day out." – Robert Collier
+                “It does not matter how slowly you go as long as you do not stop.” — Confucius
               </p>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function CatsComponent() {
 
               {/* Cat Video Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 m-4 overflow-x-auto p-2">
-                {["-_aMgxyQo_8", "L04WZCyp-Is", "-2hFF6pINUo", "ig49C04bJt0"].map((videoId, index) => (
+                {["paWE-GvDO1c?si=vP6nXL8OjMq3cE8M", "Jt1_Q_tnbEk?si=n-5gN0I2c-OadKDo", "8iY66B5NB2w?si=hBaR3OK3jRJaluZ5", "-vzQdTvm2VA?si=8zzgiz3Seynmssr9"].map((videoId, index) => (
                   <div key={index} className="flex flex-col items-center">
                     <YoutubeEmbed videoId={videoId} />
                   </div>
