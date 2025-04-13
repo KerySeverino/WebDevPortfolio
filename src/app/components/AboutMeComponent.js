@@ -1,5 +1,6 @@
 "use client";
-import Image from "next/image";
+import Carousel from './Carousel';
+import Image from 'next/image';
 import { useEffect, useState } from "react";
 
 export default function AboutMeComponent() {
@@ -11,6 +12,37 @@ export default function AboutMeComponent() {
         setIsVisible(true);
         }, 150); 
     }, []);
+
+    const courseraMachineLearningSpecializationImages = [
+        { src: "/MachineLearning_1:3.png", alt: "ML 1" },
+    ];
+
+    const courseraPythonSpecializationImages = [
+        { src: "/Python For Everybody_Specialization.png", alt: "Python For Everybody Specialization" },
+        { src: "/Python for Everybody 5:5.png", alt: "Python 5" },
+        { src: "/Python for Everybody 4:5.png", alt: "Python 4" },
+        { src: "/Python for Everybody 3:5.png", alt: "Python 3" },
+        { src: "/Python for Everybody 2:5.png", alt: "Python 2" },
+        { src: "/Python for Everybody 1:5.png", alt: "Python 1" },
+    ];
+
+    const courseraGoogleCyberSecurityImages = [
+        { src: "/Google CyberSecurity Certificate 2:8.png", alt: "Google CyberSecurity 2" },
+        { src: "/Google CyberSecurity Certificate 1:8.png", alt: "Google CyberSecurity 1" },
+    ];
+
+    const hackerRankImages = [
+        { src: "/hackerrank_sql.png", alt: "HackerRank SQL" },
+        { src: "/hackerrank_python.png", alt: "HackerRank Python" },
+    ];
+
+    const soloLearnImages = [
+        { src: "/sololearn_c.png", alt: "SoloLearn C" },
+        { src: "/sololearn_java.png", alt: "SoloLearn Java" },
+        { src: "/sololearn_python.png", alt: "SoloLearn Python" },
+        { src: "/sololearn_html.png", alt: "SoloLearn Html" },
+        { src: "/sololearn_tech.png", alt: "SoloLearn Tech" },
+    ];
 
   return (
     <>
@@ -158,23 +190,32 @@ export default function AboutMeComponent() {
 
            {/* Certificates Section */}
             <div className="m-4 min-h-screen">
-                <h1 className="text-4xl mb-4 text-center">Certificates</h1>
-                <div className="adaptable-grid-cols-size">
-                    <div className="transition duration-300 hover:scale-110"><Image src="/MachineLearning_1:3.png" alt="Machinelearning 1" width={400} height={200} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 1:8.png" alt="Google 1" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Google CyberSecurity Certificate 2:8.png" alt="Google 2" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 1:5.png" alt="Programming 1" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Programming for Everybody 2:5.png" alt="Programming 2" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/hackerrank_python.png" alt="Hackerrank python 1" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/hackerrank_sql.png" alt="Hackerrank sql 1" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_c.png" alt="Sololearn c" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_java.png" alt="Sololearn java" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_python.png" alt="Sololearn python" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_html.png" alt="Sololearn html" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/sololearn_tech.png" alt="Sololearn tech" width={400} height={400} /></div>
-                    <div className="transition duration-300 hover:scale-110"><Image src="/Postman - Postman API Fundamentals Student Expert.png" alt="Postman" width={200} height={200} /></div>                   
+                <h1 className="text-4xl text-center mb-10">Certificates</h1>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4">
+                    <div>
+                        <Carousel title="Machine Learning Specialization" images={courseraMachineLearningSpecializationImages} />
+                    </div>
+                    <div>
+                        <Carousel title="Python For Everybody Specialization" images={courseraPythonSpecializationImages} />
+                    </div>
+                    <div>
+                        <Carousel title="Google CyberSecurity Professional" images={courseraGoogleCyberSecurityImages} />
+                    </div>
+                    <div>
+                        <Carousel title="HackerRank" images={hackerRankImages} />
+                    </div>
+                    <div>
+                        <Carousel title="SoloLearn" images={soloLearnImages} />
+                    </div>
                 </div>
+
+                <div className="flex justify-center">
+                    <div className="transition duration-300 hover:scale-105"><Image src="/Postman - Postman API Fundamentals Student Expert.png" alt="Postman" width={150} height={150} /></div>                   
+                </div>  
             </div>
+
+          
 
             {/* Resume Section */}
             <div className="mt-20">
