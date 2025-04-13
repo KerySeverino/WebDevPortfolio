@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function CertificatesCarousel({ title, images }) {
   const [current, setCurrent] = useState(0);
@@ -20,23 +21,25 @@ export default function CertificatesCarousel({ title, images }) {
           height={400}
           className="object-contain mx-auto transition duration-300 hover:scale-110"
         />
+
         <button
           onClick={prevSlide}
           className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-indigo-500 p-2 rounded-full hover:bg-indigo-600"
-        >⬅</button>
+        >
+          <FaArrowLeft/>
+        </button>
+
         <button
           onClick={nextSlide}
           className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-indigo-500 p-2 rounded-full hover:bg-indigo-600"
-        >➡</button>
+        >
+          <FaArrowRight/>
+        </button>
       </div>
 
       <div className="flex justify-center mt-4 space-x-2">
         {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full ${current === index ? "bg-indigo-600" : "bg-gray-300"}`}
-          ></button>
+          <button key={index} onClick={() => setCurrent(index)} className={`w-3 h-3 rounded-full ${current === index ? "bg-indigo-600" : "bg-gray-300"}`}/>
         ))}
       </div>
     </div>
