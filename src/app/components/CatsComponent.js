@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import YoutubeEmbed from "./YoutubeEmbed";
+import Card from "./Card";
 
 export default function CatsComponent() {
   return (
@@ -22,7 +23,7 @@ export default function CatsComponent() {
           
           <div className="cats-margin-size">
             {/* My Cat Corner */}
-            <div className="bg-gray-500/50 rounded-3xl m-5 p-4 mt-10 mb-30 text-center">
+            <div className="bg-gray-500/50 rounded-3xl m-5 p-4 mt-10 mb-10 text-center">
               <h1 className="text-3xl">My Cat Corner</h1>
               <p className="m-5">
                 Cats are simply the best, and what better way to share my love for them than by giving them their own special place on my site? 
@@ -37,6 +38,33 @@ export default function CatsComponent() {
                     <Image src={`/${cat}`} width={200} height={200} alt={cat} className="img-hover-scale-effect rounded-lg" />
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="cats-margin-size">
+            <div className="bg-gray-500/50 pb-10 rounded-3xl m-5 p-4 mt-10 mb-10 text-center">
+              <h1 className="text-3xl mb-6">Cat Tweets</h1>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 items-stretch">
+              <div className="flex">
+                  <Card 
+                    imageSrc="/miles-tweet.png" 
+                    imageAlt="Miles Tweet" 
+                    title="Miles" 
+                    paragraph="He sits above us all. Observing, judging, waiting for the birds to slip up. Miles is the silent guardian of the window realm."
+                    hashtags={["MilesTheWatcher", "KingOverWorld", "HunterOfBirds"]}
+                  />
+                </div>
+                <div className="flex">
+                  <Card 
+                    imageSrc="/mj-tweet.png" 
+                    imageAlt="MJ Tweet" 
+                    title="MJ" 
+                    paragraph="Bow to the Queen. I fear nothing. I lay where I want, when I want. Belly rubs are allowed, but only if you bring me food."
+                    hashtags={["QueenMJ", "CatNap", "MoreFoodPlease"]}
+                  />
+                </div>
               </div>
             </div>
           </div>
