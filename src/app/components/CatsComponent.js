@@ -16,7 +16,7 @@ export default function CatsComponent() {
             <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-5 mb-10 text-center z-20">
               <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
               <p>
-                “It does not matter how slowly you go as long as you do not stop.” — Confucius
+                “When you’re clear on your purpose, every step forward is power. No more guessing — just building.” — Anonymous
               </p>
             </div>
           </div>
@@ -52,8 +52,8 @@ export default function CatsComponent() {
                     imageSrc="/miles-tweet.png" 
                     imageAlt="Miles Tweet" 
                     title="Miles" 
-                    paragraph="He sits above us all. Observing, judging, waiting for the birds to slip up. Miles is the silent guardian of the window realm."
-                    hashtags={["MilesTheWatcher", "KingOverWorld", "HunterOfBirds"]}
+                    paragraph="Wherever Dad goes, I go. That’s the rule!"
+                    hashtags={["Sleepy", "CoolCat", "MyBestBud"]}
                   />
                 </div>
                 <div className="flex">
@@ -61,8 +61,8 @@ export default function CatsComponent() {
                     imageSrc="/mj-tweet.png" 
                     imageAlt="MJ Tweet" 
                     title="MJ" 
-                    paragraph="Bow to the Queen. I fear nothing. I lay where I want, when I want. Belly rubs are allowed, but only if you bring me food."
-                    hashtags={["QueenMJ", "CatNap", "MoreFoodPlease"]}
+                    paragraph="If Miles leaves food behind... well, it’s mine now. Simple math."
+                    hashtags={["QueenMJ", "Treats?", "FoodStealer"]}
                   />
                 </div>
               </div>
