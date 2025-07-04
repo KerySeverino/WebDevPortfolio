@@ -14,6 +14,9 @@ export default function AboutMeComponent() {
     }, []);
 
     const courseraMachineLearningSpecializationImages = [
+        { src: "/MachineLearning_Specialization.jpeg", alt: "Machine Learning Specialization" },
+        { src: "/MachineLearning_3:3.jpeg", alt: "ML 3" },
+        { src: "/MachineLearning_2:3.jpeg", alt: "ML 2" },
         { src: "/MachineLearning_1:3.png", alt: "ML 1" },
     ];
 
