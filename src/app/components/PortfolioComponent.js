@@ -1,11 +1,30 @@
+"use client";
 import Image from "next/image";
 import YoutubeEmbed from "./YoutubeEmbed";
+import { useEffect, useState } from "react";
+
+
 
 export default function PortfolioComponent() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+      setTimeout(() => {
+      setIsVisible(true);
+      }, 150); 
+  }, []);
+
   return (
     <>
+      <div className="text-center pt-20">
+        
+        <h1 className={`adaptable-title-size relative z-10 transition-all duration-800 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}`}> 
+            My Projects
+        </h1>
+    </div>
+
        {/* Container */}
-      <div className="pt-15">
+      <div className="pt-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 p-4 m-4 gap-4">
           {/* WebDevPortfolio Card */}
           <div className="portfolio-card-effect">
