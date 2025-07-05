@@ -16,7 +16,7 @@ export default function CatsComponent() {
             <div className="bg-gray-500/50 rounded-3xl m-5 p-5 mt-5 mb-10 text-center z-20">
               <h1 className="text-3xl">Weekly Pawsitivity Quote</h1>
               <p>
-                “When you’re clear on your purpose, every step forward is power. No more guessing — just building.” — Anonymous
+                "You are not behind. You are exactly where you need to be to get to where you're going." - Emily Maroutian
               </p>
             </div>
           </div>
