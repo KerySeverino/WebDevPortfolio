@@ -32,25 +32,13 @@ export default function ExperienceComponent() {
                         <Image src="/coopcareers_logo.png" alt="Profile" className="" width={150} height={70} />
                     </div>
 
-                    <h1 className="font-bold mt-4"> Data Analyst Fellow (Incoming)</h1>
+                    <h1 className="font-bold mt-4"> Data Analyst Fellow </h1>
             
 
                  
-                    <p className="mt-4"> Aug 13 - Dec 3, 2025 </p>
+                    <p className="mt-4"> Aug, 2025 - Present </p>
                 </div>
 
-                 {/* AWS re/Start Card */}
-                 <div className="portfolio-card-effect">
-                    <h1 className="font-bold"> AWS re/Start : Full-Time Program </h1>
-                    <div className="flex justify-center mt-4">
-                        <Image src="/awsrestart_logo.png" alt="Profile" className="" width={210} height={70} />
-                    </div>
-
-                    <h1 className="font-bold mt-4"> Cloud Trainee (Incoming)</h1>
-                    
-
-                    <p className="mt-4"> Aug 4 - Nov 14, 2025 </p>
-                </div>
 
                  {/* ThinkNeuro,LLC Card */}
                  <div className="portfolio-card-effect">
@@ -59,7 +47,7 @@ export default function ExperienceComponent() {
                         <Image src="/thinkneuro_logo.png" alt="Profile" className="" width={100} height={70} />
                     </div>
 
-                    <h1 className="font-bold mt-4">Summer Associate - Data Research </h1>
+                    <h1 className="font-bold mt-4">Data Research Summer Associate</h1>
                     <h1 className="font-bold"> (BCI & Neuroprosthetics) </h1>
                     
                     <p> <b> | </b> </p>
@@ -70,7 +58,7 @@ export default function ExperienceComponent() {
                     
 
                  
-                    <p className="mt-4"> Jun 9 - Aug 7, 2025 </p>
+                    <p className="mt-4"> Jun, 2025 - Aug, 2025 </p>
                 </div>
 
                  {/* Basta Card */}
@@ -84,7 +72,7 @@ export default function ExperienceComponent() {
                     
                 
                    
-                    <p className="mt-4"> Jun 27 - Sept 5, 2025 </p>
+                    <p className="mt-4"> Jun, 2025 - Present </p>
                 </div>
 
                 {/* CodePath Card */}
@@ -97,7 +85,7 @@ export default function ExperienceComponent() {
                     <h1 className="font-bold mt-4">Tech Fellow</h1>
                     
                 
-                    <p className="mt-4"> Jun 3 - Aug 8, 2025 </p>
+                    <p className="mt-4"> Jun, 2025 - Aug, 2025 </p>
                 </div>
 
                 {/* ColorStack Card */}
@@ -109,7 +97,7 @@ export default function ExperienceComponent() {
 
                     <h1 className="font-bold mt-4">Member</h1>
                 
-                    <p className="mt-4"> April, 2025 - Present</p>
+                    <p className="mt-4"> Apr, 2025 - Present</p>
                 </div>
 
                 {/* CCNY Card */}
@@ -123,7 +111,7 @@ export default function ExperienceComponent() {
                     
                 
                     
-                    <p className="mt-4">  April - Aug, 2024 </p>
+                    <p className="mt-4">  Apr, 2024 - Aug, 2024 </p>
                 </div>
 
                    {/* Security Guard Card */}
@@ -136,7 +124,7 @@ export default function ExperienceComponent() {
                     <h1 className="font-bold mt-4">Security Guard</h1>
                     
                   
-                    <p className="mt-4"> Jun, 2022 - Present </p>
+                    <p className="mt-4"> Jun, 2022 - Jul, 2025. </p>
                 </div>
 
                 </div>
