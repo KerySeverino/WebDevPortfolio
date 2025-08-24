@@ -25,23 +25,49 @@ export default function ExperienceComponent() {
             {/* Container */}
             <div className="pt-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 p-4 m-4 gap-4">
+
+                {/* AWS AI & ML Scholar Card */}
+                <div className="portfolio-card-effect">
+                    <h1 className="font-bold"> Amazon Web Services : Scholarship </h1>
+                    <div className="flex justify-center mt-4">
+                        <Image src="/aws_logo.png" alt="Profile" className="" width={150} height={70} />
+                    </div>
+                    <h1 className="font-bold mt-4"> AWS AI & ML Scholar: Future AWS AI Engineer </h1>                           
+                    <p className="mt-4"> Aug 2025 - Present </p>
+                </div>
+
                 {/* COOP Careers Card */}
                 <div className="portfolio-card-effect">
                     <h1 className="font-bold"> COOP Careers : Fellowship </h1>
                     <div className="flex justify-center mt-4">
                         <Image src="/coopcareers_logo.png" alt="Profile" className="" width={150} height={70} />
                     </div>
-
-                    <h1 className="font-bold mt-4"> Data Analyst Fellow </h1>
-            
-
-                 
-                    <p className="mt-4"> Aug, 2025 - Present </p>
+                    <h1 className="font-bold mt-4"> Data Analyst Fellow </h1>                           
+                    <p className="mt-4"> Aug 2025 - Present </p>
                 </div>
 
-
-                 {/* ThinkNeuro,LLC Card */}
+                 {/* Basta Card */}
                  <div className="portfolio-card-effect">
+                    <h1 className="font-bold"> Basta : Fellowship </h1>
+                    <div className="flex justify-center mt-4">
+                        <Image src="/basta_logo.png" alt="Profile" className="" width={200} height={70} />
+                    </div>
+                    <h1 className="font-bold mt-4">Tech & Career Fellow</h1>                 
+                    <p className="mt-4"> Jun 2025 - Present </p>
+                </div>
+
+                {/* CodePath Card */}
+                <div className="portfolio-card-effect">
+                    <h1 className="font-bold"> CodePath : Fellowship </h1>
+                    <div className="flex justify-center mt-4">
+                        <Image src="/codepath_logo.png" alt="Profile" className="" width={120} height={70} />
+                    </div>
+                    <h1 className="font-bold mt-4">Tech Fellow</h1>
+                    <p className="mt-4"> Jun 2025 - Aug 2025 </p>
+                </div>
+
+                {/* ThinkNeuro,LLC Card */}
+                <div className="portfolio-card-effect">
                     <h1 className="font-bold"> ThinkNeuro, LLC : Internship </h1>
                     <div className="flex justify-center mt-4">
                         <Image src="/thinkneuro_logo.png" alt="Profile" className="" width={100} height={70} />
@@ -54,38 +80,8 @@ export default function ExperienceComponent() {
                     <p> <i>Promoted</i>  </p>
                     <p> <b> | </b> </p>
 
-                    <h1 className="font-bold"> Data Research Intern </h1>
-                    
-
-                 
-                    <p className="mt-4"> Jun, 2025 - Aug, 2025 </p>
-                </div>
-
-                 {/* Basta Card */}
-                 <div className="portfolio-card-effect">
-                    <h1 className="font-bold"> Basta : Fellowship </h1>
-                    <div className="flex justify-center mt-4">
-                        <Image src="/basta_logo.png" alt="Profile" className="" width={200} height={70} />
-                    </div>
-
-                    <h1 className="font-bold mt-4">Tech & Career Fellow</h1>
-                    
-                
-                   
-                    <p className="mt-4"> Jun, 2025 - Present </p>
-                </div>
-
-                {/* CodePath Card */}
-                <div className="portfolio-card-effect">
-                    <h1 className="font-bold"> CodePath : Fellowship </h1>
-                    <div className="flex justify-center mt-4">
-                        <Image src="/codepath_logo.png" alt="Profile" className="" width={120} height={70} />
-                    </div>
-
-                    <h1 className="font-bold mt-4">Tech Fellow</h1>
-                    
-                
-                    <p className="mt-4"> Jun, 2025 - Aug, 2025 </p>
+                    <h1 className="font-bold"> Data Research Intern </h1>                                   
+                    <p className="mt-4"> Jun 2025 - Aug 2025 </p>
                 </div>
 
                 {/* ColorStack Card */}
@@ -94,10 +90,8 @@ export default function ExperienceComponent() {
                     <div className="flex justify-center mt-4">
                         <Image src="/colorstack_logo.png" alt="Profile" className="" width={200} height={70} />
                     </div>
-
                     <h1 className="font-bold mt-4">Member</h1>
-                
-                    <p className="mt-4"> Apr, 2025 - Present</p>
+                    <p className="mt-4"> Apr 2025 - Present</p>
                 </div>
 
                 {/* CCNY Card */}
@@ -106,25 +100,18 @@ export default function ExperienceComponent() {
                     <div className="flex justify-center mt-4">
                         <Image src="/ccny_logo.png" alt="Profile" className="" width={260} height={70} />
                     </div>
-
                     <h1 className="font-bold mt-4">STEM Research Mentor</h1>
-                    
-                
-                    
-                    <p className="mt-4">  Apr, 2024 - Aug, 2024 </p>
+                    <p className="mt-4">  Apr 2024 - Aug 2024 </p>
                 </div>
 
-                   {/* Security Guard Card */}
-                   <div className="portfolio-card-effect">
+                {/* Security Guard Card */}
+                <div className="portfolio-card-effect">
                     <h1 className="font-bold"> Allied Universal : Part-Time</h1>
                     <div className="flex justify-center mt-4">
                         <Image src="/allieduniversal_logo.png" alt="Profile" className="" width={180} height={70} />
                     </div>
-
                     <h1 className="font-bold mt-4">Security Guard</h1>
-                    
-                  
-                    <p className="mt-4"> Jun, 2022 - Jul, 2025. </p>
+                    <p className="mt-4"> Jun 2022 - Jul 2025</p>
                 </div>
 
                 </div>
