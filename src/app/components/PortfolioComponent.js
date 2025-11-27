@@ -28,7 +28,7 @@ export default function PortfolioComponent() {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 p-4 m-4 gap-4">
           {/* WebDevPortfolio Card */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold">WebDevPortfolio</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/WebDevPortfolio"><h1 className="font-bold">WebDevPortfolio</h1></a>
             <p className="mt-4">
               This website serves as my Web Development Portfolio, showcasing videos of projects I am proud of. 
               It is a live, evolving platform where I document my work, track my progress, and continuously implement new features as I refine my skills.  
@@ -48,10 +48,68 @@ export default function PortfolioComponent() {
             </div>
             <p className="mt-4"> Kery | Mar 11, 2025 </p>
           </div>
+          
+          {/* COOP Careers Card 2 */}
+          <div className="portfolio-card-effect">
+            <a className="project-page-link" href="https://docs.google.com/presentation/d/1AA77MJq-ZveaeZl1z1rEdl8zCMGin1qW8gK4BIr7Hcw/edit?usp=sharing"> <h1 className="font-bold">COOP Careers Capstone Project</h1></a>
+            <p className="mt-4">
+              Analyzed ad inventory performance data to evaluate CTR, CPA, CVR, CPM, and additional branding &
+              performance metrics to identify top-performing exchanges and inform data-driven marketing strategy.
+            </p>
+
+            <div className="flex justify-center mt-4">
+              <Image src="/self.jpg" alt="Profile" className="rounded-full" width={70} height={70} />
+            </div>
+            <p className="mt-4"> Kery | Nov 24, 2025 </p>
+          </div>
+
+          {/* Future AWS AI Engineer Card 2 */}
+          <div className="portfolio-card-effect">
+            <h1 className="font-bold">Intelligent Document Querying System(RAG)</h1>
+            <p className="mt-4">
+              Designed and deployed an Intelligent Document Querying System using AWS Bedrock, S3, Aurora Serverless,
+              and Terraform to enable vector search and grounded AI responses.
+            </p>
+
+            <div className="flex justify-center mt-4">
+              <Image src="/self.jpg" alt="Profile" className="rounded-full" width={70} height={70} />
+            </div>
+            <p className="mt-4"> Kery | Nov 15, 2025 </p>
+          </div>
+
+          {/* COOP Careers Card 1 */}
+          <div className="portfolio-card-effect">
+          <a className="project-page-link" href="https://docs.google.com/presentation/d/10K-vY3n_0plKL0DUT8FCbQBtjr3i-GhYfVUkiHpKlvM/edit?usp=sharing"><h1 className="font-bold">Trends in NYPD Arrests</h1></a>
+            
+            <p className="mt-4">
+              Analyzed NYPD arrest data using Excel and SQL, visualizing offense patterns and demographic trends through
+              interactive Tableau dashboards.
+            </p>
+
+            <div className="flex justify-center mt-4">
+              <Image src="/self.jpg" alt="Profile" className="rounded-full" width={70} height={70} />
+            </div>
+            <p className="mt-4"> Kery | Oct 7, 2025 </p>
+          </div>
+
+
+          {/* Future AWS AI Engineer Card 1 */}
+          <div className="portfolio-card-effect">
+            <h1 className="font-bold">BedRockAgent</h1>
+            <p className="mt-4">
+              Developed a Bedrock-powered budgeting agent with custom guardrails, contextual grounding, and sensitivity
+              filters to promote safe and bias-free financial education.
+            </p>
+
+            <div className="flex justify-center mt-4">
+              <Image src="/self.jpg" alt="Profile" className="rounded-full" width={70} height={70} />
+            </div>
+            <p className="mt-4"> Kery | Oct 5, 2025 </p>
+          </div>
 
           {/* AI/ML Roadmap Card */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold">AI/ML Roadmap</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/AI_ML_Roadmap"><h1 className="font-bold">AI/ML Roadmap</h1></a>
             <p className="mt-4">
             Each project, notebook, and line of code here is part of a structured path I'm building to master data, math, and machine intelligence.
             Ultimately becoming one with the machine. Maybe even like Tony Stark (Iron Man) one day, as silly as that sounds hahah.
@@ -73,7 +131,7 @@ export default function PortfolioComponent() {
 
           {/* Spellbound Game */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Spellbound</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/SpellBound"><h1 className="font-bold mb-4">Spellbound</h1></a>
             <YoutubeEmbed videoId="RA2olD4DC5o" />
             <p className="mt-4">
               This game idea was inspired by Little Red Riding Hood and the Big Bad Wolf. 
@@ -91,7 +149,7 @@ export default function PortfolioComponent() {
 
           {/* Space Shooter */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Space Shooter</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/spaceshooter.py"> <h1 className="font-bold mb-4">Space Shooter</h1></a>
             <YoutubeEmbed videoId="e7NeBvOhvNs" />
             <p className="mt-4">
               My second Python game using Pygame was a project I had initially abandoned but later decided to revisit.
@@ -108,7 +166,7 @@ export default function PortfolioComponent() {
 
           {/* Tic-Tac-Toe */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Tic-Tac-Toe</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/tic_tac_toe.py"><h1 className="font-bold mb-4">Tic-Tac-Toe</h1></a>
             <YoutubeEmbed videoId="_6uoTny1M9o" />
             <p className="mt-4">
               My first Python game using Pygame was a simple Tic-Tac-Toe for two players (X and O).
@@ -125,7 +183,7 @@ export default function PortfolioComponent() {
 
           {/* File Organizer */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">File Organizer</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/fileOrganizer.py"><h1 className="font-bold mb-4">File Organizer</h1></a>
             <YoutubeEmbed videoId="yQtbF39NA2A" />
             <p className="mt-4">
               My File Organizer project was born out of the need to tackle the clutter and disorganization on my computer. 
@@ -141,7 +199,7 @@ export default function PortfolioComponent() {
 
           {/* Weather App */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Weather App</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/WeatherApp_Upgraded.py"><h1 className="font-bold mb-4">Weather App</h1></a>
             <YoutubeEmbed videoId="gxG7Qlq2oLk" />
             <p className="mt-4">
               My weather app project began as an upgrade to an earlier version,
@@ -160,7 +218,7 @@ export default function PortfolioComponent() {
 
           {/* Calculator */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Calculator</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/Calculator_GUI.py"> <h1 className="font-bold mb-4">Calculator</h1></a>
             <YoutubeEmbed videoId="AsQAWnGRml4" />
             <p className="mt-4">
               My calculator project began as an effort to improve my initial version,
@@ -178,7 +236,7 @@ export default function PortfolioComponent() {
 
           {/* Digital Clock */}
           <div className="portfolio-card-effect">
-            <h1 className="font-bold mb-4">Digital Clock</h1>
+            <a className="project-page-link" href="https://github.com/KerySeverino/MyPythonProjects/blob/main/Clock.py"><h1 className="font-bold mb-4">Digital Clock</h1></a>
             <YoutubeEmbed videoId="WynMq7mOCdI" />
             <p className="mt-4">
               My digital clock project began as an experiment while exploring different technologies, this is where Tkinter came in. 

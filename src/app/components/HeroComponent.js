@@ -30,9 +30,9 @@ export default function HeroComponent() {
         <h1 className={`text-4xl lg:text-6xl font-bold relative z-10 transition-all duration-800 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}`}> 
           Kery Severino Diaz
         </h1>
-        <h2 className="text-3xl mt-4">
+        {/* <h2 className="text-3xl mt-4">
           <span className="typewriter"> Aspiring AI / ML Engineer </span>
-        </h2>
+        </h2> */}
 
         {/* Bio */}
         <div className="ml-10 mr-10">

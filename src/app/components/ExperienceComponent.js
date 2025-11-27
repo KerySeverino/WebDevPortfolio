@@ -33,7 +33,7 @@ export default function ExperienceComponent() {
                         <Image src="/aws_logo.png" alt="Profile" className="" width={150} height={70} />
                     </div>
                     <h1 className="font-bold mt-4"> AWS AI & ML Scholar: Future AWS AI Engineer </h1>                           
-                    <p className="mt-4"> Aug 2025 - Present </p>
+                    <p className="mt-4"> Aug 2025 - Nov 2025 </p>
                 </div>
 
                 {/* COOP Careers Card */}
@@ -43,7 +43,7 @@ export default function ExperienceComponent() {
                         <Image src="/coopcareers_logo.png" alt="Profile" className="" width={150} height={70} />
                     </div>
                     <h1 className="font-bold mt-4"> Data Analyst Fellow </h1>                           
-                    <p className="mt-4"> Aug 2025 - Present </p>
+                    <p className="mt-4"> Aug 2025 - Dec 2025 </p>
                 </div>
 
                  {/* Basta Card */}
