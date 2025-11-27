@@ -36,6 +36,9 @@ body {
   @apply transition-transform duration-300 hover:text-indigo-400 hover:scale-110;
 }
 
+.project-page-link{
+  @apply transition-transform duration-300 hover:text-amber-300 hover:scale-110 underline;
+}
 
 /* Typewriter effect */
 @keyframes typing {
